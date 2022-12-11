@@ -13,6 +13,7 @@ impl NeverZero {
 
 fn main() {
     println!("{}", divide(10, NeverZero::new(0).unwrap()));
+    // this code possiblly can crash  
 }
 
 fn divide(n1: i32, nz: NeverZero) -> i32 {
