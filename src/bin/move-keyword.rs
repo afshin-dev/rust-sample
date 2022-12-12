@@ -4,6 +4,9 @@ fn main() {
         println!("{}", name); 
     } ; 
     // name no longer available here 
+    // println!("b: {}", name); 
+    // toggle comment to see the error 
+
     run_it(Box::new(function));
 }
 
