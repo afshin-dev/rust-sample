@@ -4,6 +4,11 @@ fn main () {
 
     println!("{:?}", retrun_code);
     println!("{:?}", retrun_code_1);
+
+    // use with into 
+    let retrun_code_2 : RetrunCode = 9u8.into();
+    println!("{:?}", retrun_code_2);
+
 }
 
 #[derive(Debug)]
